@@ -14,8 +14,8 @@ Module MainModule
         Try
 
 
-            Dim ip As String = "192.168.1.38"
-            Dim port As Integer = 8080
+            Dim ip As String = "xxx.xxx.x.xxx"
+            Dim port As Integer = xxxx
 
             _server = New TcpListener(IPAddress.Parse(ip), port)
             _server.Start()
